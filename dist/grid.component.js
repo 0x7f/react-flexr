@@ -86,7 +86,7 @@ var Grid = function (_Component) {
   function Grid(props) {
     (0, _classCallCheck3.default)(this, Grid);
 
-    var _this = (0, _possibleConstructorReturn3.default)(this, (0, _getPrototypeOf2.default)(Grid).call(this, props));
+    var _this = (0, _possibleConstructorReturn3.default)(this, (Grid.__proto__ || (0, _getPrototypeOf2.default)(Grid)).call(this, props));
 
     (0, _utils.findBreakpoints)();
     return _this;

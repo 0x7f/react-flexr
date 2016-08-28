@@ -120,9 +120,10 @@ var optimizedResize = exports.optimizedResize = function () {
       var callback = _values$next.value;
 
       if (done) {
-        return more = false;
+        more = false;
+      } else {
+        callback();
       }
-      callback();
     }
     running = false;
   }
