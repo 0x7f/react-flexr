@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "react": ">=0.11.0",
-    "stilr": "kodyl/stilr#remove-react-dep"
+    "stilr": "^1.3.0"
   },
   "repository": "kodyl/react-flexr",
   "author": "Kodyl ApS",
